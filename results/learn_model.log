@@ -1,0 +1,25 @@
+$ bun run src/learn.ts --sim
+[0.1s] conversations: 30740, train 11522
+[4.5s] reply classes: 8548 (train turns 18397; with a name slot 18)
+[26.0s] rule calibration: 1622 rules seen on training turns
+[26.0s] lexemes: 22063, selectors (knn): 33906 (of which knowledge rules 6260; alternatives 63398, groups 12221)
+[173.5s] sim test/all: turns 7413, reachable 0.896, selected right 0.632 (of reachable 0.705)
+[173.5s] sim test/dolly1: turns 602, reachable 0.920, selected right 0.515 (of reachable 0.560)
+[173.5s] sim test/pool-reply: turns 2228, reachable 1.000, selected right 0.672 (of reachable 0.672)
+[173.5s] sim test/pool-reply-same-pool: turns 1527, reachable 1.000, selected right 0.981 (of reachable 0.981)
+[173.5s] sim test/dolly2: turns 406, reachable 0.926, selected right 0.384 (of reachable 0.415)
+[173.5s] sim test/ec: turns 1350, reachable 0.894, selected right 0.529 (of reachable 0.592)
+[173.5s] sim test/kb: turns 1633, reachable 0.820, selected right 0.627 (of reachable 0.765)
+[173.5s] sim test/name: turns 369, reachable 0.989, selected right 0.930 (of reachable 0.940)
+[173.5s] sim test/namex: turns 354, reachable 0.929, selected right 0.887 (of reachable 0.954)
+[173.5s] sim test/namey: turns 349, reachable 0.957, selected right 0.908 (of reachable 0.949)
+[173.5s] sim test/pert: turns 1350, reachable 0.872, selected right 0.493 (of reachable 0.565)
+[173.5s] sim test/stb: turns 1000, reachable 0.963, selected right 0.840 (of reachable 0.872)
+[173.5s] vocab: 322517 (chars 278, words 288327, ids 33906)
+[173.6s] tokens copied by the PREV heads: 22264 of 288611
+[173.6s] d_model: 1325384
+[173.7s] position margin 0.7162 → β = 83.8
+[176.0s] layer-1 neurons: recital 619874 (context lengths {"1":370116,"2":225028,"3":27852,"4":2797,"5":611,"6":134,"7":28,"8":10,"10":2,"11":10,"13":2}, unresolved 0), name detectors 6
+[176.1s] rule neurons: presence 26138, phrases 51436, groups/avoid 58232, entries 6260; d_model now 1325384
+[176.1s] seed circuit neurons: 124508
+[176.9s] saved weights/model.{json,bin} (116.3 MB)

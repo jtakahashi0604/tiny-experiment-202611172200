@@ -1,0 +1,30 @@
+{
+  "weights": "weights/ecn",
+  "split": "test",
+  "conversations": 344,
+  "turns": 1350,
+  "exact": 0.4111111111111111,
+  "f1": 0.5251653291597853,
+  "firstTurnExact": 1,
+  "secondsPerTurn": 0.20858530052444443,
+  "groups": {
+    "ec": {
+      "turns": 1350,
+      "exact": 0.4111,
+      "f1": 0.5252
+    }
+  },
+  "modules": {
+    "answers": "141/613",
+    "chat": "306/321",
+    "greeting": "33/228",
+    "the_shape_of_the_answer": "14/114",
+    "memory_store": "61/67",
+    "safety": "0/2",
+    "said_back": "0/2",
+    "dreams": "0/1",
+    "detail_question": "0/1",
+    "onsubject": "0/1"
+  },
+  "samples": []
+}

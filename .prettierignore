@@ -1,0 +1,9 @@
+package.json
+bun.lock
+node_modules/
+data/
+weights/
+results/
+third_party/
+src--py/
+HANDOVER.md

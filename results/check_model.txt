@@ -1,0 +1,2 @@
+$ bun run src/check.ts
+recital exact: 8541/8541 (classes without an ID token: 7) (1024.3s)

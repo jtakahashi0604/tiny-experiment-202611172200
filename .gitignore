@@ -1,0 +1,5 @@
+node_modules/
+data/
+src--py/.venv/
+HANDOVER.md
+__pycache__/
